@@ -1,0 +1,12 @@
+template1(myList)::=<<
+($myList:getAllListItems();separator=","$)
+>>
+
+getAllListItems(eachElement)::=<<
+'$eachElement$'
+>>
+
+template2(myMap)::=<<
+{$myMap.keys : { k | "$k$" = "$myMap.(k)$"};separator=" ,"$}
+>>
+

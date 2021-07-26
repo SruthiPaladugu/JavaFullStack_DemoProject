@@ -1,0 +1,20 @@
+template3(myMap)::=<<
+$myMap.keys : { k | $k$ = $myMap.(k)$$\n$}$
+>>
+
+
+template1(data)::=<<
+The recieved input is $data$
+>>
+
+template4(list)::=<<
+$list :{ items |$items :{ item |$item$}$$\n$}$
+>>
+
+template5(myList)::=<<
+$myList:getAllListItems();seperator="|"$
+>>
+
+getAllListItems(eachElement)::=<<
+$eachElement.keys: { k | $k$ = $eachElement.(k)$$\n$}$
+>>

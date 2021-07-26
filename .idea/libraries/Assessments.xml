@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Assessments">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/java/Day-1" />
+      <root url="file://$PROJECT_DIR$/java/Day-2" />
+      <root url="file://$PROJECT_DIR$/java/Day-4" />
+      <root url="file://$PROJECT_DIR$/java/MavenTaskOne/src/main/java" />
+    </SOURCES>
+  </library>
+</component>
